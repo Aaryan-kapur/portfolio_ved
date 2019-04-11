@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+body{
+    background-color: white;
+    font-family: 'Montserrat' !important;
+}
+.main{
+    width:100%;       
+overflow-x: hidden;
+overflow: hidden;
+background-color: black;
+height:55%;
+}
+.image-main{
+    overflow: hidden; 
+    
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+.logo{
+    height:5%;
+}
+.gal {
+	
+	
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+}
+.container{
+    padding:0% !important;
+}
+.row{
+    padding:0% !important;
+}
+.gallery{
+    padding:0% !important;  
+}
+.title-gallery{
+    position: relative;
+    left:50%;
+       transform: translateX(-50%);
+}
+   
+   .small-title{
+       font-weight: 600;
+       text-align: center;  
+       font-size:20px;
+       
+       margin-top:3vh;
+   }
+   .big-title-gallery{
+       font-size:100px;
+       text-align: center;
+       font-weight: 600;
+
+   }
+   .card{
+       background-color: black;
+   }
+   .card-body{
+       background-color:black; 
+   }
+   @keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+.fa{
+    margin-right:1vh;
+}
+
+
+.about{
+    position: relative;
+    background-color: black;
+    height:30vh;
+    left:50%;
+       transform: translateX(-50%);
+    margin-top:5%;
+}
+   
+  
+   .big-about-gallery{
+       font-size:4vw;
+       text-align: center;
+       font-weight: 600;
+       color:white;
+
+
+   }
+   .aboutMe{
+       font-size: 1.5vh;
+       color:white;
+       text-align: center;
+       
+   }
+  
+   .main-about{
+       padding-left:20%;
+       padding-right:20%;
+   }
+
+   .Clients{
+    position: relative;
+    background-color: rgb(24, 24, 24);
+    height:30vh;
+    left:50%;
+       transform: translateX(-50%);
+}
+@media only screen and (min-width:1300px){
+.Clients{
+    height:40vh;
+
+}
+}
+   
+  
+   .big-Clients-gallery{
+       font-size:4vw;
+       text-align: center;
+       font-weight: 600;
+       color:white;
+
+
+   }
+   .ClientsMe{
+       font-size: 1.5vh;
+       color:white;
+       text-align: center;
+       
+   }
+  
+   .main-Clients{
+       padding-left:20%;
+       padding-right:20%;
+   }
+
+
+   .col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-3 img{
+    width:100%;
+    height:auto;
+  }
+  body .carousel-indicators li{
+    background-color:white;
+  }
+  body .carousel-indicators{
+    bottom: 0;
+  }
+  body .carousel-control-prev-icon,
+  body .carousel-control-next-icon{
+    background-color:white;
+  }
+  body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+     }
+     .credits{
+         height:4vh;
+         background-color: black;
+         color:white;
+        text-align: center;
+     }
+     .image1{
+         height:40vw;
+     }
+     .image2{
+         height: 38.4vw;
+     }
+     .image10{
+         height:40.03vw;
+     }
