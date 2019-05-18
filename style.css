@@ -10,14 +10,25 @@ overflow-x: hidden;
 overflow: hidden;
 background-color: black;
 height:55%;
-}
-.image-main{
-    overflow: hidden; 
-    
-    position: relative;
-    left:50%;
-    transform: translateX(-50%);
+background-image: url(images/main.jpeg);
+background-size: 30%;
+background-repeat: no-repeat;
+overflow: hidden; 
 
+background-position: 50%;
+
+}
+
+.main_text{
+    color:white; 
+    font-size: 5vh;
+    margin-left:15%;
+    margin-top:5%;
+}
+strong{
+    font-size:25vh;
+
+    font-weight:700;
 }
 .logo{
     height:5vh;
@@ -224,3 +235,11 @@ height:55%;
      .image10{
          height:40.03vw;
      }
+
+.fa{
+    cursor: pointer;
+}
+.fa:hover{
+    color:white;
+   
+}
